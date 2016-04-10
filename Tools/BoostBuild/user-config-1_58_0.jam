@@ -1,0 +1,18 @@
+using boost
+  : 1.58
+  ;
+
+using msvc
+  : 14.0  #14.0
+  ;
+
+using python : 3.4 : C:\\Python34\\python.exe
+  : C:\\Python34\\\\include
+  : C:\\Python34\\\\libs
+  : <address-model>64 ;
+
+
+using python : 3.4 : C:\\Python34-32\\python.exe
+  : C:\\Python34-32\\\\include
+  : C:\\Python34-32\\\\libs
+  : <address-model>32 ;

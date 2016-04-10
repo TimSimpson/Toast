@@ -24,3 +24,8 @@ Terrain Orbital Assist Setup Tool.
 
     Installs boar.... Wheee!
 
+# Environment Variables
+
+    TOOLS_LOCAL - This is a place where extremely large tools such as boost
+                  will reside.
+
