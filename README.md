@@ -1,6 +1,6 @@
 # TOAST
 
-Terrain Orbital Assist Setup Tool.
+Terrestrial Orbital Assist Setup Tool
 
 
 # Prereqs
