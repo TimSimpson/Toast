@@ -33,25 +33,6 @@ function cmd_install_boar() {
     hg clone https://bitbucket.org/mats_ekberg/boar
 }
 
-function cmd_boost_version() {
-    # Shows the version of Boost in effect.
-    echo "${BOOST_VERSION}"
-}
-
-function cmd_boost_install() {
-    # Installs a version of Boost.
-    # Requires a compiler...
-
-    check_tools_local
-    if [ -z "${WINDIR}" ]; then
-        "${toast_tools}"/cp/boost_build_install.bat
-    else
-        echo 'Not implemented yet.'
-        exit
-    fi
-}
-
-
 function cmd_refresh () {
     # Refresh command selection to reflect script.
     mkdir -p Output
